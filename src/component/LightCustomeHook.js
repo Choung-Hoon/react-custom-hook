@@ -12,6 +12,7 @@ const LightCustomeHook = () => {
     <div>
       <h1>Simple custom hook(useInput)</h1>
       <p>release1.0 버그 수정1</p>
+      <p>release1.0 버그 수정2</p>
       <input type="text" onChange={handleChanged} value={inputValue} />
       <button onClick={handleSubmit}>확인</button>
     </div>
