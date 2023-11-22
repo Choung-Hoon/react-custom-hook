@@ -9,14 +9,17 @@ const ComplexCustomHook = () => {
 
   return (
     <div>
+      <hr />
       <h1>User</h1>
       <hr />
       {userData && <pre>{JSON.stringify(userData[0], null, 2)}</pre>}
       <hr />
       <h1>Post</h1>
+      <hr />
       {postData && <pre>{JSON.stringify(postData[0], null, 2)}</pre>}
       <hr />
       <h1>Todo</h1>
+      <hr />
       {todoData && <pre>{JSON.stringify(todoData[0], null, 2)}</pre>}
     </div>
   );
